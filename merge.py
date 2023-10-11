@@ -15,4 +15,7 @@ def merge_list(firstList, secondList):
                 merged[j], merged[j+1] = merged[j+1], merged[j]
    
     return merged
+<<<<<<< HEAD
 
+=======
+>>>>>>> c92abe198ced218369ede59c23fb4deef07d0314
