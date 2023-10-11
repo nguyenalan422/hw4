@@ -16,9 +16,3 @@ def merge_list(firstList, secondList):
    
     return merged
 
-#example run
-if __name__ == "__main__":
-    firstList = [1,3,5,7,9]
-    secondList = [2,4,6,8,10]
-    result = merge_list(firstList, secondList)
-    print(result)  # This will print [1, 2, 3, 4, 5, 6, 7]
