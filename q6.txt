@@ -1,5 +1,11 @@
 Question 6:
 Review the code below and answer the following two questions:
 1. Does the change inside increment_int_a change the variable a after the function call?
+No, the change inside increment_int_a does not change the variable a after the function call. This is due to the fact that, integers being immutable, meaning that when a user passes an integer into a function, the function only 
+gets a copy of the value of the integer, so increment_int_a does not change.
+
 2. Does the change inside increment_int_b change the variable b after the function call?
+Yes, because in the code, 'b' is considered the dictionary, which are mutable, so it will pass as a reference of the same object.
+
 3. If they differ answer why? if not why not?
+They differ because for integers are inmutable whereas dictionaries are mutable.
