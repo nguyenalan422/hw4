@@ -1,1 +1,7 @@
 Question 5: Why do we use inheritance? 
+1. One reason we use inheritance is because of code reusability. This allows users
+to build brand new classes which can inherit (take) some aspects, in this case existing class's attributes.
+
+2. Another reason why we use inheritance is because it is a great representation of hiearchy. As an example, you can make a class 
+called shoes, and the subclasses can be examples such as "Nikes" , "Jordans", or  "Adidas". This means that Shoes is the base class
+and the brands are derived from Shoes.
